@@ -1,0 +1,21 @@
+@import '../../styles/base.scss';
+
+.movie-review-list {
+  margin-top: 30px;
+
+  .movie-review-list__item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    font-size: 14px;
+  }
+
+  .movie-review-list__author {
+    font-weight: 600;
+  }
+}
+
+.no-review-comment {
+  margin-top: 30px;
+}

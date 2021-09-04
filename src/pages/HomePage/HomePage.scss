@@ -1,0 +1,23 @@
+@import '../../styles/base.scss';
+
+.homepage__movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+
+  .homepage__movie-list-item {
+    max-width: 100%;
+    margin: 15px;
+  }
+
+  .homepage__movie-card {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .homepage__movie-poster {
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+}

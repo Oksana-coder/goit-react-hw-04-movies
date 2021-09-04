@@ -1,0 +1,29 @@
+@import '../../styles/base.scss';
+
+.movie-cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  margin-top: 15px;
+
+  .movie-cast-list__item {
+    max-width: 100%;
+    margin: 15px;
+  }
+
+  .movie-cast-list__actor-card {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .movie-cast-list__actor-image {
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+
+  .movie-cast-list__actor-character,
+  .movie-cast-list__actor-name {
+    font-size: 12px;
+  }
+}

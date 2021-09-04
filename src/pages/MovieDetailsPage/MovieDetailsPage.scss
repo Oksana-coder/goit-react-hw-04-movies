@@ -1,0 +1,77 @@
+@import '../../styles/base.scss';
+
+.go-back-btn {
+  padding: 5px 10px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.movie-page__movie-card {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  .movie-page__movie-poster {
+    border-radius: 4px;
+  }
+
+  .movie-page__movie-details {
+    margin-left: 15px;
+
+    .movie-page__user-score {
+      font-weight: 400;
+    }
+  }
+
+  .movie-page__movie-genres {
+    display: flex;
+    margin: -10px;
+  }
+
+  .movie-page__movie-genres-item {
+    margin: 10px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    color: #000000;
+    background-color: #e2725b;
+  }
+}
+
+.movie-page__cast {
+  margin-right: 15px;
+}
+
+.movie-page__cast,
+.movie-page__reviews {
+  padding: 5px 10px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #212121;
+  background-color: #f5f4fa;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
